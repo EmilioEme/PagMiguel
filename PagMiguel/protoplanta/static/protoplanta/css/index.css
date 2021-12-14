@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+ul{
+  list-style: none;
+}
+body {
+    background-color: rgb(255, 255, 255);
+  }
+
+.navBarMenu{
+    background-color: rgb(124, 187, 124);
+}
+header{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.navBarMenu li>a{
+  background-color: rgb(124, 187, 124);
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+.navBarMenu li>a:hover{
+color: black;
+background-color: rgb(127, 202, 127);
+}
+.navBarMenu>li{
+float: left;
+text-align:center
+}
+.catalogo{
+  background-color: rgb(124, 187, 124);
+}

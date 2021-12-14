@@ -1,0 +1,1 @@
+web: gunicorn PagMiguel.wsgi --log-files -
